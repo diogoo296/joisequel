@@ -1,0 +1,27 @@
+{
+  "name": "joisequel",
+  "version": "1.0.0",
+  "description": "Creates a Joi schema for a Sequelize model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogoo296/joisequel.git"
+  },
+  "keywords": [
+    "joi",
+    "sequelize",
+    "validation"
+  ],
+  "author": "Diogo M. Santana",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/diogoo296/joisequel/issues"
+  },
+  "homepage": "https://github.com/diogoo296/joisequel#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
