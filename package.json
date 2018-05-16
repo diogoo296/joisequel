@@ -2,7 +2,7 @@
   "name": "joisequel",
   "version": "1.0.0",
   "description": "Creates a Joi schema for a Sequelize model.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "standard && npm test"
   },
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/diogoo296/joisequel#readme",
   "devDependencies": {
     "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "joi": "^13.3.0",
+    "lodash": "^4.17.10"
   }
 }
